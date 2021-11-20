@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.oneplus.hardware.camera@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.camera@1.0-service \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.oneplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.charger@1.0-service \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.oneplus.hardware.display@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.display@1.0-service \
+    vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.oneplus.hardware.param@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.param@1.0-service \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor/oneplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -252,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.oneplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.charger@1.0-service.rc \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.oneplus.hardware.display@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.display@1.0-service.rc \
+    vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.oneplus.hardware.param@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.param@1.0-service.rc \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
     vendor/oneplus/sm8350-common/proprietary/vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
@@ -1207,6 +1209,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.camera@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.oneplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.charger@1.0.so \
+    vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.param@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0.so \
     vendor/oneplus/sm8350-common/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.1.so \
@@ -1308,6 +1311,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
+    IFAAService \
     WfdService \
     ims \
     qcrilmsgtunnel \
